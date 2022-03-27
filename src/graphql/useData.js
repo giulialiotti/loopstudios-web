@@ -13,9 +13,18 @@ export const useData = () => {
         hero {
           headline
           image {
-            src {
-              childImageSharp {
-                gatsbyImageData
+            mobile {
+              src {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
+            }
+            desktop {
+              src {
+                childImageSharp {
+                  gatsbyImageData
+                }
               }
             }
             alt

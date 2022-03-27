@@ -1,5 +1,5 @@
 import "@fontsource/alata";
-import "@fontsource/josefin-sans";
+import "@fontsource/josefin-sans/300.css";
 
 const theme = {
   breakpoints: [
@@ -8,6 +8,9 @@ const theme = {
 
     // Medium
     "@media screen and (min-width: 750px)",
+
+    // Large
+    "@media screen and (min-width: 1000px)",
 
     // Xlarge
     "@media screen and (min-width: 1400px)",
@@ -35,17 +38,20 @@ const theme = {
   styles: {
     root: {
       boxSizing: "border-box",
+      fontSize: "16px",
       padding: 0,
       margin: 0,
     },
     h1: {
+      color: "white",
       fontFamily: "heading",
-      fontSize: 32,
+      fontSize: ['2.625em', '3.25em', '3.25em', '4.5em'], // 42px 52px 52px 72px
+      lineHeight: 1,
       textTransform: "uppercase",
     },
     body: {
       fontFamily: "body",
-      fontSize: 15
+      fontSize: 15,
     },
   },
   // variants for buttons

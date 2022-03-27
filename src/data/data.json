@@ -27,7 +27,12 @@
     "hero": {
       "headline": "Immersive experiences that deliver",
       "image": {
-        "src": "../assets/desktop/image-hero.jpg",
+        "mobile": {
+          "src": "../assets/mobile/image-hero.jpg"
+        },
+        "desktop": {
+          "src": "../assets/desktop/image-hero.jpg"
+        },
         "alt": "Woman playing videogame"
       }
     },
