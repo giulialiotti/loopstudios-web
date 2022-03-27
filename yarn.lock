@@ -1142,6 +1142,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/alata@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/alata/-/alata-4.5.5.tgz#82274b9fa6ce34ee6b7d21b7af0fbdfdf530e879"
+  integrity sha512-9MOvVjZdGVHIhk1c/TOF79O0eWnM/XcVTMR+8hhuTQDH2HqExAvrci4heqwFrvmgRHMr4+90HRjbirDyxGu8cw==
+
+"@fontsource/josefin-sans@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/josefin-sans/-/josefin-sans-4.5.6.tgz#ec94a2a854270c6914b702d894a0a2a72400b279"
+  integrity sha512-SCdxY+yydekDs06WZx7m5CHXWHkDYwI2Vj7NruVeAoU4BslQjmsDomQ04h9Ftwlro4oFvNVQ8hHV7Rpa7K5m1A==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-0.0.2.tgz#e1586f1796aa773e53e0909025ea16e423c14391"
