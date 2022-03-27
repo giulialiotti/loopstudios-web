@@ -1,0 +1,126 @@
+[
+  {
+    "navigation": {
+      "links": [
+        {
+          "name": "About",
+          "to": "#about"
+        },
+        {
+          "name": "Careers",
+          "to": "#"
+        },
+        {
+          "name": "Events",
+          "to": "#"
+        },
+        {
+          "name": "Products",
+          "to": "#"
+        },
+        {
+          "name": "Support",
+          "to": "#"
+        }
+      ]
+    },
+    "header": {
+      "headline": "Immersive experiences that deliver",
+      "image": {
+        "src": "../assets/desktop/image-hero.jgp",
+        "alt": "Woman playing videogame"
+      }
+    },
+    "about": {
+      "headline": "The leader in interactive VR",
+      "description": "Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand."
+    },
+    "creations": {
+      "headline": "Our creations",
+      "button": "See all",
+      "projects": [
+        {
+          "title": "Deep earth",
+          "image": {
+            "src": "../assets/desktop/image-deep-earth.jpg",
+            "alt": "Planet earth from space"
+          }
+        },
+        {
+          "title": "Night arcade",
+          "image": {
+            "src": "../assets/desktop/night-arcade.jpg",
+            "alt": "Arcade game"
+          }
+        },
+        {
+          "title": "Soccer team VR",
+          "image": {
+            "src": "../assets/desktop/soccer-team.jpg",
+            "alt": "Men playing soccer"
+          }
+        },
+        {
+          "title": "The grid",
+          "image": {
+            "src": "../assets/desktop/grid.jpg",
+            "alt": "Car"
+          }
+        },
+        {
+          "title": "From up above VR",
+          "image": {
+            "src": "../assets/desktop/from-above.jpg",
+            "alt": "Road from above"
+          }
+        },
+        {
+          "title": "Pocket borealis",
+          "image": {
+            "src": "../assets/desktop/pocket-borealis.jpg",
+            "alt": "Aurora borealis"
+          }
+        },
+        {
+          "title": "The curiosity",
+          "image": {
+            "src": "../assets/desktop/curiosity.jpg",
+            "alt": "Space robot"
+          }
+        },
+        {
+          "title": "Make it fisheye",
+          "image": {
+            "src": "../assets/desktop/fisheye.jpg",
+            "alt": "Fisheye effect"
+          }
+        }
+      ]
+    },
+    "footer": {
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://es-la.facebook.com/",
+          "icon": "../assets/svg/icon-facebook.svg"
+        },
+        {
+          "name": "Twitter",
+          "href": "https://twitter.com/",
+          "icon": "../assets/svg/icon-twitter.svg"
+        },
+        {
+          "name": "Pinterest",
+          "href": "https://www.pinterest.com",
+          "icon": "../assets/svg/icon-pinterest.svg"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://www.instagram.com",
+          "icon": "../assets/svg/icon-instagram.svg"
+        }
+      ],
+      "copyright": "© 2021 Loopstudios. All rights reserved."
+    }
+  }
+]
