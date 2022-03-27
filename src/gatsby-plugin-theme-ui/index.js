@@ -45,13 +45,22 @@ const theme = {
     h1: {
       color: "white",
       fontFamily: "heading",
-      fontSize: ['2.625em', '3.25em', '3.25em', '4.5em'], // 42px 52px 52px 72px
-      lineHeight: 1,
+      fontSize: ["2.625em", "3.25em", "3.25em", "4.5em"], // 42px 52px 52px 72px
       textTransform: "uppercase",
     },
+    h2: {
+      color: "black",
+      fontFamily: "heading",
+      fontSize: ["2em", "2.625em", "2.625em", "3.25em"], // 32px 42px 42px 52px
+      textTransform: "uppercase",
+      textAlign: ["center", "center", "left", "left"],
+    },
     body: {
+      color: "gray",
       fontFamily: "body",
-      fontSize: 15,
+      fontSize: ["0.9375em", "1em", "0.9375em", "0.9375em"], // 15px 16px 15px 15px
+      lineHeight: 1.8,
+      textAlign: ["center", "center", "left", "left"],
     },
   },
   // variants for buttons

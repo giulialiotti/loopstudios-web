@@ -33,6 +33,14 @@ export const useData = () => {
         about {
           headline
           description
+          image {
+            src {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            alt
+          }
         }
         creations {
           headline

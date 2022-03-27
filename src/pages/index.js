@@ -1,17 +1,18 @@
 import * as React from "react";
 
 // Local Components
-import { Hero } from "sections";
+import { Hero, About } from "sections";
 
 // Data
 import { useData } from "../graphql/useData";
 
 const IndexPage = () => {
-  const { hero } = useData();
+  const { hero, about } = useData();
 
   return (
     <main>
       <Hero data={hero} />
+      <About data={about} />
     </main>
   );
 };
