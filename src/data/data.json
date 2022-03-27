@@ -24,7 +24,7 @@
         }
       ]
     },
-    "header": {
+    "hero": {
       "headline": "Immersive experiences that deliver",
       "image": {
         "src": "../assets/desktop/image-hero.jpg",

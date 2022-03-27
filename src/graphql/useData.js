@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 
-export const useHomePageData = () => {
+export const useData = () => {
   const { data } = useStaticQuery(graphql`
     query {
       data: dataJson {
@@ -10,7 +10,7 @@ export const useHomePageData = () => {
             to
           }
         }
-        header {
+        hero {
           headline
           image {
             src {
