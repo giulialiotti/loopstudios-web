@@ -48,9 +48,18 @@ export const useData = () => {
           projects {
             title
             image {
-              src {
-                childImageSharp {
-                  gatsbyImageData
+              mobile {
+                src {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
+                }
+              }
+              desktop {
+                src {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
                 }
               }
               alt

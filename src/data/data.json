@@ -49,58 +49,98 @@
       "button": "See all",
       "projects": [
         {
-          "title": "Deep earth",
+          "title": "Deep <br/> earth",
           "image": {
-            "src": "../assets/desktop/image-deep-earth.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-deep-earth.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-deep-earth.jpg"
+            },
             "alt": "Planet earth from space"
           }
         },
         {
-          "title": "Night arcade",
+          "title": "Night <br/> arcade",
           "image": {
-            "src": "../assets/desktop/night-arcade.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-night-arcade.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-night-arcade.jpg"
+            },
             "alt": "Arcade game"
           }
         },
         {
-          "title": "Soccer team VR",
+          "title": "Soccer <br/> team VR",
           "image": {
-            "src": "../assets/desktop/soccer-team.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-soccer-team.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-soccer-team.jpg"
+            },
             "alt": "Men playing soccer"
           }
         },
         {
-          "title": "The grid",
+          "title": "The <br/> grid",
           "image": {
-            "src": "../assets/desktop/grid.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-grid.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-grid.jpg"
+            },
             "alt": "Car"
           }
         },
         {
-          "title": "From up above VR",
+          "title": "From up <br/> above VR",
           "image": {
-            "src": "../assets/desktop/from-above.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-from-above.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-from-above.jpg"
+            },
             "alt": "Road from above"
           }
         },
         {
-          "title": "Pocket borealis",
+          "title": "Pocket <br/> borealis",
           "image": {
-            "src": "../assets/desktop/pocket-borealis.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-pocket-borealis.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-pocket-borealis.jpg"
+            },
             "alt": "Aurora borealis"
           }
         },
         {
-          "title": "The curiosity",
+          "title": "The <br/> curiosity",
           "image": {
-            "src": "../assets/desktop/curiosity.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-curiosity.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-curiosity.jpg"
+            },
             "alt": "Space robot"
           }
         },
         {
-          "title": "Make it fisheye",
+          "title": "Make it <br/> fisheye",
           "image": {
-            "src": "../assets/desktop/fisheye.jpg",
+            "mobile": {
+              "src": "../assets/mobile/image-fisheye.jpg"
+            },
+            "desktop": {
+              "src": "../assets/desktop/image-fisheye.jpg"
+            },
             "alt": "Fisheye effect"
           }
         }
