@@ -8,26 +8,40 @@ import { ImageWrapper } from "components";
 
 export const About = ({ data: { headline, description, image } }) => {
   return (
-    <Grid
-      id="about"
-      sx={{
-        gridTemplateColumns: [null, null, "repeat(24, 1fr)", "repeat(24, 1fr)"],
-        py: ["26.7%", "26.7%", "20%", "13.9%"],
-        px: ["5%", "6%", "9%", "12%"],
-      }}
-    >
-      <ImageWrapper
-        img={image.src}
-        alt={image.alt}
-        sx={{
-          gridColumn: [null, null, "1/span 16", "1/span 16"],
-          gridRow: 1,
-        }}
-      />
+    // Markup
+    <GridWrapper>
+      <Image {...image} />
       <TextBlock headline={headline} description={description} />
-    </Grid>
+    </GridWrapper>
   );
 };
+
+// Elements
+
+const GridWrapper = ({ children }) => (
+  <Grid
+    as="section"
+    id="about"
+    sx={{
+      gridTemplateColumns: [null, null, "repeat(24, 1fr)", "repeat(24, 1fr)"],
+      py: ["26.7%", "26.7%", "20%", "13.9%"],
+      px: ["5%", "6%", "9%", "12%"],
+    }}
+  >
+    {children}
+  </Grid>
+);
+
+const Image = ({ src, alt }) => (
+  <ImageWrapper
+    img={src}
+    alt={alt}
+    sx={{
+      gridColumn: [null, null, "1/span 16", "1/span 16"],
+      gridRow: 1,
+    }}
+  />
+);
 
 const TextBlock = ({ headline, description }) => (
   <Box
