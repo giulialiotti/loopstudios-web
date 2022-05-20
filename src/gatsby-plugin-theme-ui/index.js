@@ -55,6 +55,13 @@ const theme = {
       textTransform: "uppercase",
       textAlign: ["center", "center", "left", "left"],
     },
+    h3: {
+      color: "white",
+      fontFamily: "heading",
+      fontSize: ["1.5em", "2.625em", "2.625em", "2.25em"], // 24px 42px 42px 36px
+      textTransform: "uppercase",
+      letterSpacing: "1px",
+    },
     body: {
       color: "gray",
       fontFamily: "body",
@@ -65,7 +72,19 @@ const theme = {
   },
   // variants for buttons
   buttons: {
-    primary: {},
+    primary: {
+      color: "black",
+      cursor: "pointer",
+      background: "transparent",
+      border: (t) => `1px solid ${t.colors.black}`,
+      borderRadius: "unset",
+      fontFamily: "body",
+      fontSize: ["1em", "1.5em", "1.25em", "1.125em"],
+      padding: ["0.5em 2em", "0.8em 2.7em", "0.6em 2.4em", "0.4em 2.4em"],
+      textTransform: "uppercase",
+      letterSpacing: "6px",
+      width: "max-content",
+    },
   },
 };
 
