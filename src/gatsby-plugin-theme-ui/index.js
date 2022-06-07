@@ -70,7 +70,7 @@ const theme = {
       textAlign: ["center", "center", "left", "left"],
     },
   },
-  // variants for buttons
+  // variants for buttons and links
   buttons: {
     primary: {
       color: "black",
@@ -84,6 +84,20 @@ const theme = {
       textTransform: "uppercase",
       letterSpacing: "6px",
       width: "max-content",
+    },
+    clear: {
+      padding: 0,
+      background: "transparent",
+      cursor: "pointer",
+    },
+  },
+  links: {
+    navigation: {
+      color: "white",
+      fontFamily: ["heading", "heading", "body", "body"],
+      fontSize: ["1.625em", "2.625em", "1em", "1em"],
+      textDecoration: "none",
+      textTransform: ["uppercase", "uppercase", "capitalize", "capitalize"],
     },
   },
 };
