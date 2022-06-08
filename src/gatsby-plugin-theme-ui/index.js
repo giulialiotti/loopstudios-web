@@ -59,7 +59,7 @@ const theme = {
     h3: {
       color: "white",
       fontFamily: "heading",
-      fontSize: ["1.5em", "2.625em", "2.625em", "2.25em"], // 24px 42px 42px 36px
+      fontSize: ["1.5em", "2.625em", "2.375em", "2.25em"], // 24px 42px 38px 36px
       textTransform: "uppercase",
       letterSpacing: "1px",
     },

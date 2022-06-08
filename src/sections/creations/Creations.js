@@ -27,7 +27,7 @@ const GridWrapper = ({ children }) => (
     as="section"
     sx={{
       gridGap: 0,
-      gridTemplateColumns: ["1fr", "1fr", "repeat(2, 48%)", "repeat(4, 23%)"],
+      gridTemplateColumns: ["1fr", "1fr", "repeat(3, 32%)", "repeat(4, 23%)"],
       justifyContent: "space-between",
       px: ["5%", "6%", "9%", "12%"],
       "& > .creations__project:nth-of-type(n+5)": {
@@ -44,7 +44,7 @@ const Headline = ({ headline }) => (
     as="h2"
     sx={{
       alignSelf: "center",
-      gridColumn: [1, 1, 1, "1/span 2"],
+      gridColumn: [1, 1, "1/span 2", "1/span 2"],
       gridRow: 1,
       variant: "styles.h2",
     }}
@@ -132,7 +132,7 @@ const Button = ({ text }) => (
   <ButtonPrimary
     sx={{
       alignSelf: "center",
-      gridColumn: [null, null, 2, "3/span 2"],
+      gridColumn: [null, null, "2/span 2", "3/span 2"],
       gridRow: [null, null, 1, 1],
       justifySelf: ["center", "center", "end", "end"],
       mt: ["10%", "10%", 0, 0],
