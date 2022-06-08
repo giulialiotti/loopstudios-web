@@ -1,16 +1,16 @@
 import React from "react";
 
 // External Components
-import { Button, Flex, Image, Link, Box, Grid } from "theme-ui";
+import { Button, Flex, Link, Box, Grid } from "theme-ui";
+
+// Local Components
+import { Logo } from "components";
 
 // Data
 import { useData } from "graphql/useData";
 
 // Hooks
 import { useScrollBlock } from "hooks";
-
-// Assets
-import logo from "assets/svg/logo.svg";
 
 export const Navigation = () => {
   const {
@@ -30,8 +30,9 @@ export const Navigation = () => {
   }, [isMenuOpen, blockScroll, allowScroll]);
 
   return (
+    // Markup
     <ContentWrapper>
-      <Logo />
+      <LogoWrapper />
       <MenuButton handleClick={handleClick} />
       <DesktopLinks data={links} />
       {isMenuOpen && <MenuOverlay data={links} />}
@@ -58,18 +59,13 @@ const ContentWrapper = ({ children }) => (
   </Flex>
 );
 
-const Logo = () => (
-  <Link
-    href="/"
+const LogoWrapper = () => (
+  <Logo
     sx={{
-      display: "flex",
-      position: "relative",
       width: ["45%", "40%", "14.5%", "17.5%"],
       zIndex: 10,
     }}
-  >
-    <Image src={logo} alt="Loop Studios logo" sx={{ width: "100%" }} />
-  </Link>
+  />
 );
 
 const MenuButton = ({ handleClick }) => (
@@ -124,6 +120,7 @@ const Links = ({ data, sx }) => (
   >
     {data.map(({ name, to }, index) => (
       <Link
+        key={name}
         variant="navigation"
         href={to}
         sx={{
