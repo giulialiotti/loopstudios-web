@@ -41,6 +41,7 @@ const theme = {
       fontSize: "16px",
       padding: 0,
       margin: 0,
+      scrollBehavior: "smooth",
     },
     h1: {
       color: "white",
@@ -98,6 +99,12 @@ const theme = {
       fontSize: ["1.625em", "2.625em", "1em", "1em"],
       textDecoration: "none",
       textTransform: ["uppercase", "uppercase", "capitalize", "capitalize"],
+    },
+    footer: {
+      color: "white",
+      fontFamily: "body",
+      fontSize: "1em",
+      textDecoration: "none",
     },
   },
 };
