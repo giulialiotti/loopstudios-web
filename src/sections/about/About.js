@@ -24,7 +24,6 @@ const GridWrapper = ({ children }) => (
     id="about"
     sx={{
       gridTemplateColumns: [null, null, "repeat(24, 1fr)", "repeat(24, 1fr)"],
-      py: ["26.7%", "26.7%", "20%", "13.9%"],
       px: ["5%", "6%", "9%", "12%"],
     }}
   >
